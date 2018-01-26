@@ -287,6 +287,6 @@ Devise.setup do |config|
     client_secret = 'v9y42pdvp3easu9800uzksgbiagwpo'
   end
 
-  config.omniauth :twitch, client_id, client_secret, scope: 'user:read:email'
+  config.omniauth :twitch, client_id, client_secret, redirect_uri: 'https://talon-omni.herokuapp.com/users/auth/twitch/callback', scope: 'user:read:email'
 
 end
