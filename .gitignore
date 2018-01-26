@@ -23,3 +23,11 @@
 .byebug_history
 
 /.idea/*
+/.idea/omniapp.iml
+/.idea/.rakeTasks
+/.idea/misc.xml
+/.idea/terminal.xml
+/.idea/.generators
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
